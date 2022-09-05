@@ -103,7 +103,7 @@ header {
 header .container {
     padding-left: 10px;
     padding-right: 10px;
-    margin: 0px 50px;
+    margin: 0px auto;
 }
 
 header .container nav {
@@ -122,7 +122,7 @@ header .container .icon {
 
 header .container .icon ul {
     display: flex;
-    margin-right: -140px;
+    margin-right: auto;
 }
 
 header .container .icon ul i {
@@ -147,6 +147,14 @@ header .container .title ul li a {
     color: white;
     font-size: 11px;
     font-family: 'Cairo', sans-serif;
+    line-height: 11;
+}
+
+@media(max-width:991px) {
+    header .container .title ul li a {
+        font-size: 10px;
+        line-height: 10;
+    }
 }
 
 header .container .title ul li a:hover {
