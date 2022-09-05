@@ -9,9 +9,6 @@
     --foot-color: #181818;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 /* My Framework */
 .left {
@@ -537,6 +534,19 @@ header .container .title ul li a:hover {
 .subscribe .container span {
     flex-basis: 100%;
     text-align: center;
+}
+
+@media(max-width:991px) {
+    .subscribe .container span {
+        flex-basis: 84%;
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width:767px) {
+    .subscribe .container span {
+        flex-basis: 100%;
+    }
 }
 
 .subscribe .container form {
@@ -1071,7 +1081,6 @@ footer .box.box-form input {
 }
 
 
-
 footer .box.box-info h4 {
     margin-bottom: 10px;
     color: #fff;
@@ -1124,6 +1133,9 @@ footer .section p {
 
 /* End Footer */
 
+
+
+/* Scroll */
 .gotoupbtn {
     position: fixed;
     width: 40px;
