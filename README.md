@@ -4,7 +4,7 @@ This is a front-end project that aims to clone the Al-Quds University website. T
 
 ### Demo
 
-You can view a live demo of the website here https://y7ea.github.io/Al-Quds-Uinversity/.
+You can view a live demo of the website here https://y7ea.github.io/Al-Quds-University/.
 
 ### Features
 
